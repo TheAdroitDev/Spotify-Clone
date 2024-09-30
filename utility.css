@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.border {
+    border: 2px solid red;
+    margin: 3px;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.item-center {
+    align-items: center;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.bg-gray{
+    background-color: #121212;
+}
+
+.p-1{
+    padding: 10px;
+}
+.m-1{
+    margin: 5px;
+}
+
+.rounded{
+    border-radius: 7px;
+}
+
+.m-bottom{
+    margin-bottom: 11px ;
+}
+
+.pop {
+    position: absolute;
+    bottom: -50px; /* Start off-screen */
+    transition: bottom 0.3s ease;
+}
+
+/* For WebKit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track { 
+    background: #333; /* Background of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #555; /* Color of the draggable part of the scrollbar */
+    border-radius: 6px; /* Rounded corners for the scrollbar thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #777; /* Color of the scrollbar thumb on hover */
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+
+.ourfont{
+    font-family: 'Poppins',sans-serif;
+}
